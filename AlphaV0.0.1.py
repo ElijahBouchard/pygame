@@ -338,7 +338,8 @@ while run:
 
         mouse_x, mouse_y = pygame.mouse.get_pos()
         rel_x, rel_y = mouse_x - player.x, mouse_y - player.y
-        
+
+        #OLD MECHANISM FOR SHOOTING
         '''if bullet.x < screenWidth and bullet.x > 0:
             f = Fraction(abs(rel_y/rel_x))
             if bullet.facing == 2:
